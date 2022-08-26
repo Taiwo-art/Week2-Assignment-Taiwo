@@ -73,7 +73,7 @@ let students = [
         for (let i = 0; i<sortAge; i++){
                 let ageFilter = students[i].age;
                 if (ageFilter<20)
-                console.log(students[i])
+                return students[i]
           
         }
      }
@@ -87,7 +87,7 @@ let newArray = {name : "RajiniKanth", age : 25, hasPets : true};
 
 const printAllKeys = () => {
 
-    console.log(Object.keys(newArray))
+    return Object.keys(newArray)
 
 }
 printAllKeys()
